@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class Hash {
-    public static void hash(String[] args) {
+    public static void hash() {
 
         int[] input = {3, 3, 4, 2, 3, 3, 3};
         int n = input.length;
