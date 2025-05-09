@@ -1,6 +1,5 @@
 public class Boyer_Moore_Majority_Vote {
-    public Boyer_Moore_Majority_Vote() {
-        int[] input = {3, 3, 4, 2, 3, 3, 3};
+    public Boyer_Moore_Majority_Vote(int[] input) {
         int major = -1;
         int count = 0;
 

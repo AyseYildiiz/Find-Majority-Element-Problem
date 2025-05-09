@@ -1,9 +1,7 @@
 import java.util.HashMap;
 
 public class Hash {
-    public static void hash() {
-
-        int[] input = {3, 3, 4, 2, 3, 3, 3};
+    public static void hash(int[] input) {
         int n = input.length;
         HashMap<Integer, Integer> hashTable = new HashMap<>();
         for (int num : input) {
