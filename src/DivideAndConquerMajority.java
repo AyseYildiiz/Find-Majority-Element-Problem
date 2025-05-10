@@ -1,11 +1,11 @@
 public class DivideAndConquerMajority {
-
+    // Finds majority element with divide and conquer algorithm.
     public static int findMajorityDC(int[] A) {
     	int majority = findMajority(A, 0, A.length - 1);
     	return (count(A, majority, 0, A.length - 1) > A.length / 2) ? majority : -1;
 
     }
-
+    //Finds the result recursively diving 2 parts.
     private static int findMajority(int[] A, int left, int right) {
         if (left == right) return A[left];
 
@@ -20,7 +20,7 @@ public class DivideAndConquerMajority {
 
         return (leftCount > rightCount) ? mL : mR;
     }
-
+    //Counts how many times the number occurs in subarray.
     private static int count(int[] A, int num, int left, int right) {
         int count = 0;
         for (int i = left; i <= right; i++) {

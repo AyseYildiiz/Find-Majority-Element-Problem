@@ -2,11 +2,12 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-
+    //Main method
     public static void main(String[] args) {
+        WriteOutputFile.enable("output_log.txt");
         int[] sizes = { 2000, 5000, 10000 };
         int repetitions = 20;
-
+        //Calls runTest function for all input sizes and different cases.
         for (int size : sizes) {
             System.out.println("INPUT SIZE: " + size);
 
@@ -24,34 +25,49 @@ public class Main {
             System.out.println();
         }
     }
-
+    //Runs all algorithms and prints results.
     private static void runTest(String label, int[] input, int repetitions, int size) {
-        System.out.println(label + ":");
-        System.out.println("---------------");
-
-        // Save input to txt file
+        System.out.println("======================================================");
+        System.out.println("TEST CASE : " + label);
+        System.out.println("Input Size: " + size);
+        System.out.println("Repetitions: " + repetitions);
+        System.out.println("------------------------------------------------------");
+        //Saves to the input file
         saveInputToFile(input, label, size);
+
+        System.out.println("== " + label + " ==");
+        System.out.printf("%-30s %-15s %-15s%n", "Algorithm", "Result", "Avg Time (ms)");
+        System.out.println("------------------------------------------------------------");
 
         testAlgorithm("Brute Force", input, repetitions,
                 BruteForceMajority::findMajorityElementByBruteForce);
 
-        testAlgorithm("InsertionSort", input, repetitions,
+        testAlgorithm("Insertion Sort", input, repetitions,
                 InsertionSortMajority::findMajorityElementByInsertionSort);
 
-        testAlgorithm("MergeSort", input, repetitions, MergeSortMajority::findMajorityElementByMergeSort);
+        testAlgorithm("Merge Sort", input, repetitions,
+                MergeSortMajority::findMajorityElementByMergeSort);
 
-        testAlgorithm("QuickSort", input, repetitions, QuickSortMajority::findMajorityQuickSort);
+        testAlgorithm("Quick Sort", input, repetitions,
+                QuickSortMajority::findMajorityQuickSort);
 
-        testAlgorithm("Divide & Conquer", input, repetitions, DivideAndConquerMajority::findMajorityDC);
+        testAlgorithm("Divide & Conquer", input, repetitions,
+                DivideAndConquerMajority::findMajorityDC);
 
-        System.out.println();
+        testAlgorithm("Boyer-Moore Majority Vote", input, repetitions,
+                Boyer_Moore_Majority_Vote::findBoyerMooreMajority);
+
+        testAlgorithm("Hash Map", input, repetitions,
+                Hash::hashMajority);
+
+        System.out.println("======================================================\n");
     }
-
+    //Saves all inputs to the input files.
     private static void saveInputToFile(int[] input, String label, int size) {
 
         File dir = new File("inputs");
-        if (!dir.exists()) {
-            dir.mkdir();
+        if (!dir.exists() && !dir.mkdir()) {
+            System.err.println("Failed to create directory: " + dir.getAbsolutePath());
         }
 
         String safeLabel = label.replaceAll("[^a-zA-Z0-9]", "_");
@@ -63,10 +79,9 @@ public class Main {
             }
         } catch (IOException e) {
             System.err.println("Failed to write input to file: " + filename);
-            e.printStackTrace();
         }
     }
-
+    //Tests an algorithm and measures the time.
     private static void testAlgorithm(String name, int[] input, int reps, MajorityFinder finder) {
         long totalTime = 0;
         int result = -1;
@@ -80,11 +95,10 @@ public class Main {
         }
 
         double avgTimeMs = ((double) totalTime / reps) / 1_000_000;
-        System.out.println(name + " Result: " + result + "\nAverage Time: " + avgTimeMs + " ms\n");
+        System.out.printf("%-30s %-15d %-15.4f%n", name, result, avgTimeMs);
     }
 
-    // === INPUT GENERATORS ===
-
+    // INPUT GENERATING FUNCTIONS
     private static int[] generateAllSame(int size, int value) {
         int[] A = new int[size];
         Arrays.fill(A, value);
@@ -160,18 +174,14 @@ public class Main {
         return A;
     }
 
-    // New method for generating majority element in the middle of the array
     private static int[] generateMajorityInMiddle(int size, int majorityVal, double majorityRatio) {
         int[] A = new int[size];
         int majorityCount = (int) (size * majorityRatio);
         int middleIndex = size / 2;
 
-        // First, place majority elements around the middle
         for (int i = middleIndex - majorityCount / 2; i < middleIndex + majorityCount / 2; i++) {
             A[i] = majorityVal;
         }
-
-        // Fill the rest of the array with random values that aren't the majority value
         Random rand = new Random();
         for (int i = 0; i < size; i++) {
             if (A[i] != majorityVal) {
@@ -185,7 +195,7 @@ public class Main {
 
         return A;
     }
-
+    //Shuffles the array randomly
     private static void shuffleArray(int[] A) {
         Random rand = new Random();
         for (int i = A.length - 1; i > 0; i--) {

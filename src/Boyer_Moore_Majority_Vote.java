@@ -1,8 +1,9 @@
 public class Boyer_Moore_Majority_Vote {
-    public Boyer_Moore_Majority_Vote(int[] input) {
+    //This function finds majority element with Boyer-Moore Majority vote algorithm.
+    public static int findBoyerMooreMajority(int[] input) {
         int major = -1;
         int count = 0;
-
+    //Compares one element with others and updates counters based on the result.
         for(int num :input){
             if (count == 0){
                 major =num;
@@ -16,6 +17,7 @@ public class Boyer_Moore_Majority_Vote {
 
             }
         }
+        //Checks whether the number is majority element.
         count = 0;
         for(int num :input){
             if (num == major){
@@ -23,8 +25,8 @@ public class Boyer_Moore_Majority_Vote {
             }
         }
         if (count>input.length/2)
-            System.out.println("Majority element is " + major);
-        else System.out.println("No majority element found." );
+            return major;
+        else return -1;
 
     }
 

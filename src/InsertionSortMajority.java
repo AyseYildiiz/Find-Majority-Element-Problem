@@ -1,5 +1,5 @@
 public class InsertionSortMajority {
-
+    // Finds majority element with using insertion sort
     public static int findMajorityElementByInsertionSort(int[] A) {
 
         insertionSort(A);
@@ -20,13 +20,12 @@ public class InsertionSortMajority {
 
     }
 
-    // Insertion sort algoritması
+    // The insertion sort algorithm
     private static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
             int key = arr[i];
             int j = i - 1;
-            // key'den büyük elemanları sağa kaydır
             while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
                 j--;

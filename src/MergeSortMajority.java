@@ -1,14 +1,8 @@
 public class MergeSortMajority {
-
+    // Finds majority element with merge sort algorithm.
     public static int findMajorityElementByMergeSort(int[] A) {
-
-        // Merge-sort ile diziyi sırala
         mergeSort(A, 0, A.length - 1);
-
-        // ⌈n/2⌉'inci elemanı majority adayı olarak seç (0-index'e göre: ceil(n/2)-1)
         int number = A[A.length / 2];
-
-        // Adayın tekrar sayısını hesapla
         int count = 0;
         for (int num : A) {
             if (num == number) {
@@ -23,7 +17,7 @@ public class MergeSortMajority {
         return result;
     }
 
-    // Merge-sort algoritması
+    // The merge-sort algorithm
     private static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = left + (right - left) / 2;
@@ -33,7 +27,7 @@ public class MergeSortMajority {
         }
     }
 
-    // Merge işlemi: iki sıralı alt diziyi birleştir
+    // Merges 2 ordered sub-arrays.
     private static void merge(int[] arr, int left, int mid, int right) {
         int n1 = mid - left + 1;
         int n2 = right - mid;
