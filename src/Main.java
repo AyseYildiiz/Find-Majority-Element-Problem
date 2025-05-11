@@ -60,6 +60,9 @@ public class Main {
         testAlgorithm("Hash Map", input, repetitions,
                 Hash::hashMajority);
 
+        testAlgorithm("Counting Based", input, repetitions,
+                CountingBasedAlgorithm::findMajorityCounting);
+
         System.out.println("======================================================\n");
     }
     //Saves all inputs to the input files.
