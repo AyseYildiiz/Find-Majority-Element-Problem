@@ -7,13 +7,14 @@ Repetitions: 20
 == All Same ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    7               0.0334         
-Insertion Sort                 7               0.0916         
-Merge Sort                     7               0.4945         
-Quick Sort                     7               2.5163         
-Divide & Conquer               7               0.0732         
-Boyer-Moore Majority Vote      7               0.1202         
-Hash Map                       7               0.4420         
+Brute Force                    7               0.0305         
+Insertion Sort                 7               0.1107         
+Merge Sort                     7               0.4077         
+Quick Sort                     7               3.0338         
+Divide & Conquer               7               0.0704         
+Boyer-Moore Majority Vote      7               0.0751         
+Hash Map                       7               0.5006         
+Counting Based                 7               0.0464         
 ======================================================
 
 ======================================================
@@ -24,13 +25,14 @@ Repetitions: 20
 == Dominant Majority ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    1               0.0712         
-Insertion Sort                 1               1.0901         
-Merge Sort                     1               1.8801         
-Quick Sort                     1               1.6617         
-Divide & Conquer               1               0.0841         
-Boyer-Moore Majority Vote      1               0.0353         
-Hash Map                       1               0.7057         
+Brute Force                    1               0.1789         
+Insertion Sort                 1               2.9728         
+Merge Sort                     1               0.5966         
+Quick Sort                     1               1.9143         
+Divide & Conquer               1               0.0916         
+Boyer-Moore Majority Vote      1               0.0398         
+Hash Map                       1               0.8151         
+Counting Based                 1               0.0576         
 ======================================================
 
 ======================================================
@@ -41,13 +43,14 @@ Repetitions: 20
 == Average Case 70% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              2.3496         
-Insertion Sort                 -1              0.3769         
-Merge Sort                     -1              0.3290         
-Quick Sort                     -1              0.1545         
-Divide & Conquer               -1              0.0669         
-Boyer-Moore Majority Vote      -1              0.0403         
-Hash Map                       -1              0.4471         
+Brute Force                    -1              2.7151         
+Insertion Sort                 -1              0.5276         
+Merge Sort                     -1              0.3907         
+Quick Sort                     -1              0.1231         
+Divide & Conquer               -1              0.0655         
+Boyer-Moore Majority Vote      -1              0.0238         
+Hash Map                       -1              0.4961         
+Counting Based                 -1              0.0593         
 ======================================================
 
 ======================================================
@@ -58,13 +61,14 @@ Repetitions: 20
 == Average Case 50% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              1.1934         
-Insertion Sort                 -1              0.3873         
-Merge Sort                     -1              0.3479         
-Quick Sort                     -1              0.1506         
-Divide & Conquer               -1              0.0470         
-Boyer-Moore Majority Vote      -1              0.0273         
-Hash Map                       -1              0.2941         
+Brute Force                    -1              1.3330         
+Insertion Sort                 -1              0.5197         
+Merge Sort                     -1              0.3034         
+Quick Sort                     -1              0.1382         
+Divide & Conquer               -1              0.0589         
+Boyer-Moore Majority Vote      -1              0.0299         
+Hash Map                       -1              0.2528         
+Counting Based                 -1              0.0170         
 ======================================================
 
 ======================================================
@@ -75,13 +79,14 @@ Repetitions: 20
 == Average Case 30% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              1.1485         
-Insertion Sort                 -1              0.3876         
-Merge Sort                     -1              0.2838         
-Quick Sort                     -1              0.0816         
-Divide & Conquer               -1              0.0478         
-Boyer-Moore Majority Vote      -1              0.0046         
-Hash Map                       -1              0.4384         
+Brute Force                    -1              2.3773         
+Insertion Sort                 -1              0.7831         
+Merge Sort                     -1              0.2832         
+Quick Sort                     -1              0.1043         
+Divide & Conquer               -1              0.0555         
+Boyer-Moore Majority Vote      -1              0.0031         
+Hash Map                       -1              0.2640         
+Counting Based                 -1              0.0218         
 ======================================================
 
 ======================================================
@@ -92,13 +97,14 @@ Repetitions: 20
 == No Majority ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              1.1736         
-Insertion Sort                 -1              0.3647         
-Merge Sort                     -1              0.2806         
-Quick Sort                     -1              0.1250         
-Divide & Conquer               -1              0.0780         
-Boyer-Moore Majority Vote      -1              0.0040         
-Hash Map                       -1              0.1189         
+Brute Force                    -1              1.3146         
+Insertion Sort                 -1              0.5071         
+Merge Sort                     -1              0.2992         
+Quick Sort                     -1              0.1438         
+Divide & Conquer               -1              0.1350         
+Boyer-Moore Majority Vote      -1              0.0029         
+Hash Map                       -1              0.2078         
+Counting Based                 -1              0.0060         
 ======================================================
 
 ======================================================
@@ -109,13 +115,14 @@ Repetitions: 20
 == All Different ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              1.4483         
-Insertion Sort                 -1              0.4085         
-Merge Sort                     -1              0.3014         
-Quick Sort                     -1              0.1983         
-Divide & Conquer               -1              0.0637         
-Boyer-Moore Majority Vote      -1              0.0048         
+Brute Force                    -1              1.3377         
+Insertion Sort                 -1              0.5238         
+Merge Sort                     -1              0.4984         
+Quick Sort                     -1              0.1464         
+Divide & Conquer               -1              0.0822         
+Boyer-Moore Majority Vote      -1              0.0107         
 Hash Map                       -1              0.0885         
+Counting Based                 -1              0.0045         
 ======================================================
 
 ======================================================
@@ -126,13 +133,14 @@ Repetitions: 20
 == Increasing Order ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              0.9184         
-Insertion Sort                 -1              0.0031         
-Merge Sort                     -1              0.0731         
-Quick Sort                     -1              2.7667         
-Divide & Conquer               -1              0.0491         
-Boyer-Moore Majority Vote      -1              0.0026         
-Hash Map                       -1              0.0673         
+Brute Force                    -1              1.4166         
+Insertion Sort                 -1              0.0042         
+Merge Sort                     -1              0.1466         
+Quick Sort                     -1              2.5991         
+Divide & Conquer               -1              0.0606         
+Boyer-Moore Majority Vote      -1              0.0029         
+Hash Map                       -1              0.0858         
+Counting Based                 -1              0.0031         
 ======================================================
 
 ======================================================
@@ -143,13 +151,344 @@ Repetitions: 20
 == Decreasing Order ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              0.7647         
-Insertion Sort                 -1              0.5218         
-Merge Sort                     -1              0.1085         
-Quick Sort                     -1              2.4072         
-Divide & Conquer               -1              0.0628         
+Brute Force                    -1              1.2638         
+Insertion Sort                 -1              1.0015         
+Merge Sort                     -1              0.1454         
+Quick Sort                     -1              2.7149         
+Divide & Conquer               -1              0.0529         
+Boyer-Moore Majority Vote      -1              0.0028         
+Hash Map                       -1              0.0686         
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2000 out of bounds for length 2000
+	at CountingBasedAlgorithm.findMajorityCounting(CountingBasedAlgorithm.java:8)
+	at Main.testAlgorithm(Main.java:95)
+	at Main.runTest(Main.java:63)
+	at Main.main(Main.java:22)
+INPUT SIZE: 2000
+======================================================
+TEST CASE : All Same
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== All Same ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    7               0.0308         
+Insertion Sort                 7               0.1054         
+Merge Sort                     7               0.3461         
+Quick Sort                     7               2.6596         
+Divide & Conquer               7               0.0447         
+Boyer-Moore Majority Vote      7               0.0782         
+Hash Map                       7               0.3303         
+Counting Based                 7               0.0304         
+======================================================
+
+======================================================
+TEST CASE : Dominant Majority
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Dominant Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    1               0.0361         
+Insertion Sort                 1               0.8650         
+Merge Sort                     1               0.4415         
+Quick Sort                     1               1.1623         
+Divide & Conquer               1               0.1189         
+Boyer-Moore Majority Vote      1               0.0538         
+Hash Map                       1               0.4872         
+Counting Based                 1               0.0389         
+======================================================
+
+======================================================
+TEST CASE : Average Case 70% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 70% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              2.8129         
+Insertion Sort                 -1              0.8301         
+Merge Sort                     -1              0.2409         
+Quick Sort                     -1              0.1196         
+Divide & Conquer               -1              0.0523         
+Boyer-Moore Majority Vote      -1              0.0250         
+Hash Map                       -1              0.5901         
+Counting Based                 -1              0.0370         
+======================================================
+
+======================================================
+TEST CASE : Average Case 50% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 50% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.2264         
+Insertion Sort                 -1              0.4635         
+Merge Sort                     -1              0.2212         
+Quick Sort                     -1              0.1393         
+Divide & Conquer               -1              0.0285         
+Boyer-Moore Majority Vote      -1              0.0029         
+Hash Map                       -1              0.1189         
+Counting Based                 -1              0.0125         
+======================================================
+
+======================================================
+TEST CASE : Average Case 30% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 30% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.3077         
+Insertion Sort                 -1              0.4677         
+Merge Sort                     -1              0.2246         
+Quick Sort                     -1              0.1127         
+Divide & Conquer               -1              0.0480         
+Boyer-Moore Majority Vote      -1              0.0033         
+Hash Map                       -1              0.2943         
+Counting Based                 -1              0.0187         
+======================================================
+
+======================================================
+TEST CASE : No Majority
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== No Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.2941         
+Insertion Sort                 -1              0.4697         
+Merge Sort                     -1              0.2896         
+Quick Sort                     -1              0.1432         
+Divide & Conquer               -1              0.0593         
 Boyer-Moore Majority Vote      -1              0.0034         
-Hash Map                       -1              0.0752         
+Hash Map                       -1              0.1132         
+Counting Based                 -1              0.0053         
+======================================================
+
+======================================================
+TEST CASE : All Different
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== All Different ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.3852         
+Insertion Sort                 -1              0.5850         
+Merge Sort                     -1              0.5685         
+Quick Sort                     -1              0.1070         
+Divide & Conquer               -1              0.0426         
+Boyer-Moore Majority Vote      -1              0.0031         
+Hash Map                       -1              0.0786         
+Counting Based                 -1              0.0037         
+======================================================
+
+======================================================
+TEST CASE : Increasing Order
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Increasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.2972         
+Insertion Sort                 -1              0.0024         
+Merge Sort                     -1              0.0713         
+Quick Sort                     -1              1.7312         
+Divide & Conquer               -1              0.0459         
+Boyer-Moore Majority Vote      -1              0.0034         
+Hash Map                       -1              0.0834         
+Counting Based                 -1              0.0032         
+======================================================
+
+======================================================
+TEST CASE : Decreasing Order
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Decreasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.3324         
+Insertion Sort                 -1              0.9148         
+Merge Sort                     -1              0.1004         
+Quick Sort                     -1              2.0490         
+Divide & Conquer               -1              0.0367         
+Boyer-Moore Majority Vote      -1              0.0027         
+Hash Map                       -1              0.0660         
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2000 out of bounds for length 2000
+	at CountingBasedAlgorithm.findMajorityCounting(CountingBasedAlgorithm.java:8)
+	at Main.testAlgorithm(Main.java:95)
+	at Main.runTest(Main.java:63)
+	at Main.main(Main.java:22)
+INPUT SIZE: 2000
+======================================================
+TEST CASE : All Same
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== All Same ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    7               0.0314         
+Insertion Sort                 7               0.0931         
+Merge Sort                     7               0.3737         
+Quick Sort                     7               3.0154         
+Divide & Conquer               7               0.1015         
+Boyer-Moore Majority Vote      7               0.0822         
+Hash Map                       7               0.4933         
+Counting Based                 7               0.0337         
+======================================================
+
+======================================================
+TEST CASE : Dominant Majority
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Dominant Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    1               0.0427         
+Insertion Sort                 1               0.9364         
+Merge Sort                     1               0.5729         
+Quick Sort                     1               1.9882         
+Divide & Conquer               1               0.0868         
+Boyer-Moore Majority Vote      1               0.0260         
+Hash Map                       1               0.5488         
+Counting Based                 1               0.0613         
+======================================================
+
+======================================================
+TEST CASE : Average Case 70% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 70% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              3.7763         
+Insertion Sort                 -1              0.8142         
+Merge Sort                     -1              0.3113         
+Quick Sort                     -1              0.1040         
+Divide & Conquer               -1              0.0699         
+Boyer-Moore Majority Vote      -1              0.0257         
+Hash Map                       -1              1.1014         
+Counting Based                 -1              0.0434         
+======================================================
+
+======================================================
+TEST CASE : Average Case 50% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 50% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.9800         
+Insertion Sort                 -1              0.5192         
+Merge Sort                     -1              0.2516         
+Quick Sort                     -1              3.7808         
+Divide & Conquer               -1              0.0568         
+Boyer-Moore Majority Vote      -1              0.0027         
+Hash Map                       -1              5.9255         
+Counting Based                 -1              0.0120         
+======================================================
+
+======================================================
+TEST CASE : Average Case 30% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 30% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              2.1550         
+Insertion Sort                 -1              2.4453         
+Merge Sort                     -1              1.2017         
+Quick Sort                     -1              0.1863         
+Divide & Conquer               -1              0.0900         
+Boyer-Moore Majority Vote      -1              0.0040         
+Hash Map                       -1              1.5129         
+Counting Based                 -1              0.0198         
+======================================================
+
+======================================================
+TEST CASE : No Majority
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== No Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.4992         
+Insertion Sort                 -1              0.6195         
+Merge Sort                     -1              0.2873         
+Quick Sort                     -1              0.1559         
+Divide & Conquer               -1              0.1135         
+Boyer-Moore Majority Vote      -1              0.0028         
+Hash Map                       -1              0.1184         
+Counting Based                 -1              0.0057         
+======================================================
+
+======================================================
+TEST CASE : All Different
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== All Different ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.5805         
+Insertion Sort                 -1              0.7591         
+Merge Sort                     -1              0.6518         
+Quick Sort                     -1              0.1332         
+Divide & Conquer               -1              0.0555         
+Boyer-Moore Majority Vote      -1              0.0034         
+Hash Map                       -1              0.0855         
+Counting Based                 -1              0.0034         
+======================================================
+
+======================================================
+TEST CASE : Increasing Order
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Increasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.9170         
+Insertion Sort                 -1              0.0040         
+Merge Sort                     -1              0.1895         
+Quick Sort                     -1              2.4440         
+Divide & Conquer               -1              0.0524         
+Boyer-Moore Majority Vote      -1              0.0026         
+Hash Map                       -1              0.0800         
+Counting Based                 -1              0.0056         
+======================================================
+
+======================================================
+TEST CASE : Decreasing Order
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Decreasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              1.4330         
+Insertion Sort                 -1              0.9635         
+Merge Sort                     -1              0.1474         
+Quick Sort                     -1              2.9504         
+Divide & Conquer               -1              0.0681         
+Boyer-Moore Majority Vote      -1              0.0031         
+Hash Map                       -1              0.0944         
+Counting Based                 -1              0.0030         
 ======================================================
 
 ======================================================
@@ -160,13 +499,14 @@ Repetitions: 20
 == Majority in Middle ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    1               0.1345         
-Insertion Sort                 1               0.1892         
-Merge Sort                     1               0.1061         
-Quick Sort                     1               1.0230         
-Divide & Conquer               1               0.0347         
-Boyer-Moore Majority Vote      1               0.0025         
-Hash Map                       1               0.1569         
+Brute Force                    1               0.2499         
+Insertion Sort                 1               0.3147         
+Merge Sort                     1               0.1750         
+Quick Sort                     1               1.1563         
+Divide & Conquer               1               0.0227         
+Boyer-Moore Majority Vote      1               0.0034         
+Hash Map                       1               0.1979         
+Counting Based                 1               0.0259         
 ======================================================
 
 
@@ -179,13 +519,14 @@ Repetitions: 20
 == All Same ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    7               0.0077         
-Insertion Sort                 7               0.0123         
-Merge Sort                     7               0.3760         
-Quick Sort                     7               13.0596        
-Divide & Conquer               7               0.0378         
-Boyer-Moore Majority Vote      7               0.0075         
-Hash Map                       7               0.2224         
+Brute Force                    7               0.0022         
+Insertion Sort                 7               0.0087         
+Merge Sort                     7               0.6726         
+Quick Sort                     7               14.7658        
+Divide & Conquer               7               0.0447         
+Boyer-Moore Majority Vote      7               0.0096         
+Hash Map                       7               0.2483         
+Counting Based                 7               0.0304         
 ======================================================
 
 ======================================================
@@ -196,13 +537,14 @@ Repetitions: 20
 == Dominant Majority ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    1               0.0061         
-Insertion Sort                 1               0.9167         
-Merge Sort                     1               0.4779         
-Quick Sort                     1               5.6018         
-Divide & Conquer               1               0.0385         
-Boyer-Moore Majority Vote      1               0.0082         
-Hash Map                       1               0.2770         
+Brute Force                    1               0.0072         
+Insertion Sort                 1               2.5080         
+Merge Sort                     1               1.3840         
+Quick Sort                     1               8.9230         
+Divide & Conquer               1               0.0501         
+Boyer-Moore Majority Vote      1               0.0111         
+Hash Map                       1               0.5820         
+Counting Based                 1               0.0415         
 ======================================================
 
 ======================================================
@@ -213,13 +555,14 @@ Repetitions: 20
 == Average Case 70% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              4.5647         
-Insertion Sort                 -1              1.4693         
-Merge Sort                     -1              0.6725         
-Quick Sort                     -1              0.2505         
-Divide & Conquer               -1              0.0773         
-Boyer-Moore Majority Vote      -1              0.0047         
-Hash Map                       -1              0.2746         
+Brute Force                    -1              9.4749         
+Insertion Sort                 -1              5.2707         
+Merge Sort                     -1              1.5004         
+Quick Sort                     -1              0.4432         
+Divide & Conquer               -1              0.2303         
+Boyer-Moore Majority Vote      -1              0.0116         
+Hash Map                       -1              0.5579         
+Counting Based                 -1              0.0170         
 ======================================================
 
 ======================================================
@@ -230,13 +573,14 @@ Repetitions: 20
 == Average Case 50% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              4.3061         
-Insertion Sort                 -1              1.3578         
-Merge Sort                     -1              0.6247         
-Quick Sort                     -1              0.2769         
-Divide & Conquer               -1              0.0780         
-Boyer-Moore Majority Vote      -1              0.0044         
-Hash Map                       -1              0.2199         
+Brute Force                    -1              9.2751         
+Insertion Sort                 -1              3.6788         
+Merge Sort                     -1              1.0430         
+Quick Sort                     -1              0.4651         
+Divide & Conquer               -1              0.2085         
+Boyer-Moore Majority Vote      -1              0.0101         
+Hash Map                       -1              0.4288         
+Counting Based                 -1              0.0154         
 ======================================================
 
 ======================================================
@@ -247,13 +591,14 @@ Repetitions: 20
 == Average Case 30% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              5.5709         
-Insertion Sort                 -1              1.4446         
-Merge Sort                     -1              0.5987         
-Quick Sort                     -1              0.2367         
-Divide & Conquer               -1              0.1010         
-Boyer-Moore Majority Vote      -1              0.0064         
-Hash Map                       -1              0.2545         
+Brute Force                    -1              9.2906         
+Insertion Sort                 -1              3.4930         
+Merge Sort                     -1              0.9963         
+Quick Sort                     -1              0.3308         
+Divide & Conquer               -1              0.1486         
+Boyer-Moore Majority Vote      -1              0.0076         
+Hash Map                       -1              0.2269         
+Counting Based                 -1              0.0100         
 ======================================================
 
 ======================================================
@@ -264,13 +609,14 @@ Repetitions: 20
 == No Majority ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              4.7210         
-Insertion Sort                 -1              1.6522         
-Merge Sort                     -1              0.8968         
-Quick Sort                     -1              0.3320         
-Divide & Conquer               -1              0.1271         
-Boyer-Moore Majority Vote      -1              0.0109         
-Hash Map                       -1              0.3596         
+Brute Force                    -1              10.0583        
+Insertion Sort                 -1              3.8141         
+Merge Sort                     -1              1.1637         
+Quick Sort                     -1              0.4283         
+Divide & Conquer               -1              0.2060         
+Boyer-Moore Majority Vote      -1              0.0099         
+Hash Map                       -1              0.3726         
+Counting Based                 -1              0.0142         
 ======================================================
 
 ======================================================
@@ -281,13 +627,14 @@ Repetitions: 20
 == All Different ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              4.1428         
-Insertion Sort                 -1              1.5130         
-Merge Sort                     -1              0.6510         
-Quick Sort                     -1              0.2471         
-Divide & Conquer               -1              0.0891         
-Boyer-Moore Majority Vote      -1              0.0088         
-Hash Map                       -1              0.3119         
+Brute Force                    -1              9.0284         
+Insertion Sort                 -1              3.3887         
+Merge Sort                     -1              0.7750         
+Quick Sort                     -1              0.3260         
+Divide & Conquer               -1              0.1403         
+Boyer-Moore Majority Vote      -1              0.0073         
+Hash Map                       -1              0.3293         
+Counting Based                 -1              0.0092         
 ======================================================
 
 ======================================================
@@ -298,13 +645,14 @@ Repetitions: 20
 == Increasing Order ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              4.4440         
-Insertion Sort                 -1              0.0072         
-Merge Sort                     -1              0.2789         
-Quick Sort                     -1              11.1731        
-Divide & Conquer               -1              0.1021         
-Boyer-Moore Majority Vote      -1              0.0062         
-Hash Map                       -1              0.2258         
+Brute Force                    -1              8.8608         
+Insertion Sort                 -1              0.0076         
+Merge Sort                     -1              0.4200         
+Quick Sort                     -1              15.5292        
+Divide & Conquer               -1              0.1730         
+Boyer-Moore Majority Vote      -1              0.0084         
+Hash Map                       -1              0.2848         
+Counting Based                 -1              0.0134         
 ======================================================
 
 ======================================================
@@ -315,13 +663,14 @@ Repetitions: 20
 == Decreasing Order ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              4.2893         
-Insertion Sort                 -1              2.8959         
-Merge Sort                     -1              0.3588         
-Quick Sort                     -1              11.9036        
-Divide & Conquer               -1              0.1383         
-Boyer-Moore Majority Vote      -1              0.0080         
-Hash Map                       -1              0.4686         
+Brute Force                    -1              7.9304         
+Insertion Sort                 -1              5.8826         
+Merge Sort                     -1              0.4526         
+Quick Sort                     -1              17.2159        
+Divide & Conquer               -1              0.1278         
+Boyer-Moore Majority Vote      -1              0.0067         
+Hash Map                       -1              0.2337         
+Counting Based                 -1              0.0080         
 ======================================================
 
 ======================================================
@@ -332,13 +681,14 @@ Repetitions: 20
 == Majority in Middle ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    1               1.2746         
-Insertion Sort                 1               0.9057         
-Merge Sort                     1               0.3676         
-Quick Sort                     1               5.4324         
-Divide & Conquer               1               0.0355         
-Boyer-Moore Majority Vote      1               0.0050         
-Hash Map                       1               0.0394         
+Brute Force                    1               1.0412         
+Insertion Sort                 1               1.8328         
+Merge Sort                     1               0.5945         
+Quick Sort                     1               7.5630         
+Divide & Conquer               1               0.0766         
+Boyer-Moore Majority Vote      1               0.0083         
+Hash Map                       1               0.0870         
+Counting Based                 1               0.0119         
 ======================================================
 
 
@@ -351,13 +701,14 @@ Repetitions: 20
 == All Same ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    7               0.0074         
-Insertion Sort                 7               0.0133         
-Merge Sort                     7               0.3856         
-Quick Sort                     7               41.3347        
-Divide & Conquer               7               0.0319         
-Boyer-Moore Majority Vote      7               0.0103         
-Hash Map                       7               0.0484         
+Brute Force                    7               0.0063         
+Insertion Sort                 7               0.0293         
+Merge Sort                     7               0.9077         
+Quick Sort                     7               87.8126        
+Divide & Conquer               7               0.0900         
+Boyer-Moore Majority Vote      7               0.0295         
+Hash Map                       7               0.2052         
+Counting Based                 7               0.0428         
 ======================================================
 
 ======================================================
@@ -368,13 +719,417 @@ Repetitions: 20
 == Dominant Majority ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    1               0.0091         
-Insertion Sort                 1               2.9269         
-Merge Sort                     1               0.7929         
-Quick Sort                     1               20.2918        
-Divide & Conquer               1               0.0675         
-Boyer-Moore Majority Vote      1               0.0177         
-Hash Map                       1               0.1255         
+Brute Force                    1               0.0251         
+Insertion Sort                 1               12.0365        
+Merge Sort                     1               2.3854         
+Quick Sort                     1               42.5302        
+Divide & Conquer               1               0.1336         
+Boyer-Moore Majority Vote      1               0.0409         
+Hash Map                       1               0.4078         
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 10001 out of bounds for length 10001
+	at CountingBasedAlgorithm.findMajorityCounting(CountingBasedAlgorithm.java:8)
+	at Main.testAlgorithm(Main.java:95)
+	at Main.runTest(Main.java:63)
+	at Main.main(Main.java:15)
+INPUT SIZE: 2000
+======================================================
+TEST CASE : All Same
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== All Same ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    7               0.0440         
+Insertion Sort                 7               0.1554         
+Merge Sort                     7               0.8046         
+Quick Sort                     7               6.2213         
+Divide & Conquer               7               0.2473         
+Boyer-Moore Majority Vote      7               0.1168         
+Hash Map                       7               1.6932         
+Counting Based                 7               0.0800         
+======================================================
+
+======================================================
+TEST CASE : Dominant Majority
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Dominant Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    1               0.6302         
+Insertion Sort                 1               3.4155         
+Merge Sort                     1               1.8525         
+Quick Sort                     1               2.3085         
+Divide & Conquer               1               0.1659         
+Boyer-Moore Majority Vote      1               0.0370         
+Hash Map                       1               1.9676         
+Counting Based                 1               0.0655         
+======================================================
+
+======================================================
+TEST CASE : Average Case 70% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 70% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              5.7876         
+Insertion Sort                 -1              0.8516         
+Merge Sort                     -1              0.8379         
+Quick Sort                     -1              0.1875         
+Divide & Conquer               -1              0.0829         
+Boyer-Moore Majority Vote      -1              0.0264         
+Hash Map                       -1              0.6403         
+Counting Based                 -1              0.0654         
+======================================================
+
+======================================================
+TEST CASE : Average Case 50% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 50% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              5.4464         
+Insertion Sort                 -1              0.8144         
+Merge Sort                     -1              0.3742         
+Quick Sort                     -1              0.1880         
+Divide & Conquer               -1              0.0695         
+Boyer-Moore Majority Vote      -1              0.0414         
+Hash Map                       -1              0.7235         
+Counting Based                 -1              0.0241         
+======================================================
+
+======================================================
+TEST CASE : Average Case 30% Unique
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 30% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              5.4806         
+Insertion Sort                 -1              0.7396         
+Merge Sort                     -1              0.3912         
+Quick Sort                     -1              0.1638         
+Divide & Conquer               -1              0.0676         
+Boyer-Moore Majority Vote      -1              0.0047         
+Hash Map                       -1              0.3983         
+Counting Based                 -1              0.0339         
+======================================================
+
+======================================================
+TEST CASE : No Majority
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== No Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              5.1560         
+Insertion Sort                 -1              0.7017         
+Merge Sort                     -1              0.3413         
+Quick Sort                     -1              0.1765         
+Divide & Conquer               -1              0.0598         
+Boyer-Moore Majority Vote      -1              0.0042         
+Hash Map                       -1              0.1501         
+Counting Based                 -1              0.0110         
+======================================================
+
+======================================================
+TEST CASE : All Different
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== All Different ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              5.1132         
+Insertion Sort                 -1              0.7686         
+Merge Sort                     -1              0.3494         
+Quick Sort                     -1              0.1686         
+Divide & Conquer               -1              0.0664         
+Boyer-Moore Majority Vote      -1              0.0047         
+Hash Map                       -1              0.1311         
+Counting Based                 -1              0.0069         
+======================================================
+
+======================================================
+TEST CASE : Increasing Order
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Increasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              6.0324         
+Insertion Sort                 -1              0.0097         
+Merge Sort                     -1              0.2622         
+Quick Sort                     -1              3.1109         
+Divide & Conquer               -1              0.0632         
+Boyer-Moore Majority Vote      -1              0.0044         
+Hash Map                       -1              0.0838         
+Counting Based                 -1              0.0056         
+======================================================
+
+======================================================
+TEST CASE : Decreasing Order
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Decreasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              5.0640         
+Insertion Sort                 -1              1.3741         
+Merge Sort                     -1              0.1650         
+Quick Sort                     -1              3.1013         
+Divide & Conquer               -1              0.0396         
+Boyer-Moore Majority Vote      -1              0.0036         
+Hash Map                       -1              0.0978         
+Counting Based                 -1              0.0051         
+======================================================
+
+======================================================
+TEST CASE : Majority in Middle
+Input Size: 2000
+Repetitions: 20
+------------------------------------------------------
+== Majority in Middle ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    1               0.7277         
+Insertion Sort                 1               0.2961         
+Merge Sort                     1               0.2325         
+Quick Sort                     1               1.3109         
+Divide & Conquer               1               0.0275         
+Boyer-Moore Majority Vote      1               0.0044         
+Hash Map                       1               0.1939         
+Counting Based                 1               0.0377         
+======================================================
+
+
+INPUT SIZE: 5000
+======================================================
+TEST CASE : All Same
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== All Same ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    7               0.0065         
+Insertion Sort                 7               0.0204         
+Merge Sort                     7               0.8146         
+Quick Sort                     7               15.8995        
+Divide & Conquer               7               0.0348         
+Boyer-Moore Majority Vote      7               0.0089         
+Hash Map                       7               0.2055         
+Counting Based                 7               0.0427         
+======================================================
+
+======================================================
+TEST CASE : Dominant Majority
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== Dominant Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    1               0.0061         
+Insertion Sort                 1               1.9824         
+Merge Sort                     1               0.9684         
+Quick Sort                     1               9.5644         
+Divide & Conquer               1               0.0704         
+Boyer-Moore Majority Vote      1               0.0171         
+Hash Map                       1               0.4754         
+Counting Based                 1               0.0418         
+======================================================
+
+======================================================
+TEST CASE : Average Case 70% Unique
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 70% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              28.1481        
+Insertion Sort                 -1              3.2608         
+Merge Sort                     -1              0.8318         
+Quick Sort                     -1              0.2946         
+Divide & Conquer               -1              0.0845         
+Boyer-Moore Majority Vote      -1              0.0068         
+Hash Map                       -1              0.2882         
+Counting Based                 -1              0.0135         
+======================================================
+
+======================================================
+TEST CASE : Average Case 50% Unique
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 50% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              25.1103        
+Insertion Sort                 -1              2.5790         
+Merge Sort                     -1              0.6978         
+Quick Sort                     -1              0.3305         
+Divide & Conquer               -1              0.2314         
+Boyer-Moore Majority Vote      -1              0.0110         
+Hash Map                       -1              0.4416         
+Counting Based                 -1              0.0195         
+======================================================
+
+======================================================
+TEST CASE : Average Case 30% Unique
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== Average Case 30% Unique ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              23.7406        
+Insertion Sort                 -1              2.5309         
+Merge Sort                     -1              0.6313         
+Quick Sort                     -1              0.2672         
+Divide & Conquer               -1              0.3022         
+Boyer-Moore Majority Vote      -1              0.0152         
+Hash Map                       -1              0.4697         
+Counting Based                 -1              0.0275         
+======================================================
+
+======================================================
+TEST CASE : No Majority
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== No Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              22.3449        
+Insertion Sort                 -1              3.7870         
+Merge Sort                     -1              0.9240         
+Quick Sort                     -1              0.3435         
+Divide & Conquer               -1              0.1248         
+Boyer-Moore Majority Vote      -1              0.0079         
+Hash Map                       -1              0.4633         
+Counting Based                 -1              0.0196         
+======================================================
+
+======================================================
+TEST CASE : All Different
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== All Different ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              25.1227        
+Insertion Sort                 -1              3.2855         
+Merge Sort                     -1              0.9641         
+Quick Sort                     -1              0.3992         
+Divide & Conquer               -1              0.1352         
+Boyer-Moore Majority Vote      -1              0.0083         
+Hash Map                       -1              0.4207         
+Counting Based                 -1              0.0166         
+======================================================
+
+======================================================
+TEST CASE : Increasing Order
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== Increasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              22.9729        
+Insertion Sort                 -1              0.0107         
+Merge Sort                     -1              0.4083         
+Quick Sort                     -1              15.6116        
+Divide & Conquer               -1              0.1561         
+Boyer-Moore Majority Vote      -1              0.0095         
+Hash Map                       -1              0.4489         
+Counting Based                 -1              0.0264         
+======================================================
+
+======================================================
+TEST CASE : Decreasing Order
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== Decreasing Order ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    -1              31.4423        
+Insertion Sort                 -1              7.9678         
+Merge Sort                     -1              0.4114         
+Quick Sort                     -1              15.2913        
+Divide & Conquer               -1              0.1339         
+Boyer-Moore Majority Vote      -1              0.0088         
+Hash Map                       -1              0.3248         
+Counting Based                 -1              0.0210         
+======================================================
+
+======================================================
+TEST CASE : Majority in Middle
+Input Size: 5000
+Repetitions: 20
+------------------------------------------------------
+== Majority in Middle ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    1               3.6061         
+Insertion Sort                 1               1.8230         
+Merge Sort                     1               0.6895         
+Quick Sort                     1               6.7817         
+Divide & Conquer               1               0.0763         
+Boyer-Moore Majority Vote      1               0.0097         
+Hash Map                       1               0.1423         
+Counting Based                 1               0.0264         
+======================================================
+
+
+INPUT SIZE: 10000
+======================================================
+TEST CASE : All Same
+Input Size: 10000
+Repetitions: 20
+------------------------------------------------------
+== All Same ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    7               0.0095         
+Insertion Sort                 7               0.0228         
+Merge Sort                     7               1.2481         
+Quick Sort                     7               56.9672        
+Divide & Conquer               7               0.0805         
+Boyer-Moore Majority Vote      7               0.0242         
+Hash Map                       7               0.2020         
+Counting Based                 7               0.0574         
+======================================================
+
+======================================================
+TEST CASE : Dominant Majority
+Input Size: 10000
+Repetitions: 20
+------------------------------------------------------
+== Dominant Majority ==
+Algorithm                      Result          Avg Time (ms)  
+------------------------------------------------------------
+Brute Force                    1               0.0114         
+Insertion Sort                 1               9.4083         
+Merge Sort                     1               2.2386         
+Quick Sort                     1               41.7646        
+Divide & Conquer               1               0.1322         
+Boyer-Moore Majority Vote      1               0.0325         
+Hash Map                       1               0.7052         
+Counting Based                 1               0.0525         
 ======================================================
 
 ======================================================
@@ -385,13 +1140,14 @@ Repetitions: 20
 == Average Case 70% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              17.8104        
-Insertion Sort                 -1              5.3951         
-Merge Sort                     -1              1.2479         
-Quick Sort                     -1              0.7070         
-Divide & Conquer               -1              0.1776         
-Boyer-Moore Majority Vote      -1              0.0156         
-Hash Map                       -1              0.2568         
+Brute Force                    -1              164.9730       
+Insertion Sort                 -1              16.3358        
+Merge Sort                     -1              2.6043         
+Quick Sort                     -1              1.0682         
+Divide & Conquer               -1              0.3818         
+Boyer-Moore Majority Vote      -1              0.0176         
+Hash Map                       -1              0.9402         
+Counting Based                 -1              0.0256         
 ======================================================
 
 ======================================================
@@ -402,13 +1158,14 @@ Repetitions: 20
 == Average Case 50% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              18.0947        
-Insertion Sort                 -1              5.8734         
-Merge Sort                     -1              1.2051         
-Quick Sort                     -1              0.5335         
-Divide & Conquer               -1              0.1541         
-Boyer-Moore Majority Vote      -1              0.0078         
-Hash Map                       -1              0.2584         
+Brute Force                    -1              102.5522       
+Insertion Sort                 -1              14.1515        
+Merge Sort                     -1              1.6933         
+Quick Sort                     -1              0.9070         
+Divide & Conquer               -1              0.2290         
+Boyer-Moore Majority Vote      -1              0.0415         
+Hash Map                       -1              0.4909         
+Counting Based                 -1              0.0134         
 ======================================================
 
 ======================================================
@@ -419,13 +1176,14 @@ Repetitions: 20
 == Average Case 30% Unique ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              16.9112        
-Insertion Sort                 -1              5.0563         
-Merge Sort                     -1              1.0715         
-Quick Sort                     -1              0.5141         
-Divide & Conquer               -1              0.1642         
-Boyer-Moore Majority Vote      -1              0.0085         
-Hash Map                       -1              0.2157         
+Brute Force                    -1              114.9141       
+Insertion Sort                 -1              12.2511        
+Merge Sort                     -1              1.7551         
+Quick Sort                     -1              0.7995         
+Divide & Conquer               -1              0.1696         
+Boyer-Moore Majority Vote      -1              0.0130         
+Hash Map                       -1              0.3769         
+Counting Based                 -1              0.0189         
 ======================================================
 
 ======================================================
@@ -436,13 +1194,14 @@ Repetitions: 20
 == No Majority ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              17.9795        
-Insertion Sort                 -1              5.3524         
-Merge Sort                     -1              1.0368         
-Quick Sort                     -1              0.5127         
-Divide & Conquer               -1              0.1581         
-Boyer-Moore Majority Vote      -1              0.0081         
-Hash Map                       -1              0.2671         
+Brute Force                    -1              123.6530       
+Insertion Sort                 -1              15.1607        
+Merge Sort                     -1              2.9171         
+Quick Sort                     -1              0.9272         
+Divide & Conquer               -1              0.3744         
+Boyer-Moore Majority Vote      -1              0.0229         
+Hash Map                       -1              0.6685         
+Counting Based                 -1              0.0226         
 ======================================================
 
 ======================================================
@@ -453,13 +1212,14 @@ Repetitions: 20
 == All Different ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              18.7232        
-Insertion Sort                 -1              6.1098         
-Merge Sort                     -1              1.3877         
-Quick Sort                     -1              0.5956         
-Divide & Conquer               -1              0.2083         
-Boyer-Moore Majority Vote      -1              0.0110         
-Hash Map                       -1              0.7067         
+Brute Force                    -1              127.3937       
+Insertion Sort                 -1              23.1814        
+Merge Sort                     -1              2.2884         
+Quick Sort                     -1              0.9962         
+Divide & Conquer               -1              0.3015         
+Boyer-Moore Majority Vote      -1              0.0188         
+Hash Map                       -1              0.6250         
+Counting Based                 -1              0.0216         
 ======================================================
 
 ======================================================
@@ -470,13 +1230,14 @@ Repetitions: 20
 == Increasing Order ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              20.4060        
-Insertion Sort                 -1              0.0155         
-Merge Sort                     -1              0.6908         
-Quick Sort                     -1              42.0711        
-Divide & Conquer               -1              0.2166         
-Boyer-Moore Majority Vote      -1              0.0097         
-Hash Map                       -1              0.2289         
+Brute Force                    -1              121.2720       
+Insertion Sort                 -1              0.0306         
+Merge Sort                     -1              0.9461         
+Quick Sort                     -1              78.2906        
+Divide & Conquer               -1              0.3801         
+Boyer-Moore Majority Vote      -1              0.0207         
+Hash Map                       -1              0.4751         
+Counting Based                 -1              0.0145         
 ======================================================
 
 ======================================================
@@ -487,13 +1248,14 @@ Repetitions: 20
 == Decreasing Order ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    -1              60.3477        
-Insertion Sort                 -1              29.2813        
-Merge Sort                     -1              1.2678         
-Quick Sort                     -1              91.9826        
-Divide & Conquer               -1              0.3512         
-Boyer-Moore Majority Vote      -1              0.0188         
-Hash Map                       -1              0.3332         
+Brute Force                    -1              124.1584       
+Insertion Sort                 -1              38.2591        
+Merge Sort                     -1              1.3059         
+Quick Sort                     -1              75.7287        
+Divide & Conquer               -1              0.2716         
+Boyer-Moore Majority Vote      -1              0.0160         
+Hash Map                       -1              0.4977         
+Counting Based                 -1              0.0232         
 ======================================================
 
 ======================================================
@@ -504,13 +1266,14 @@ Repetitions: 20
 == Majority in Middle ==
 Algorithm                      Result          Avg Time (ms)  
 ------------------------------------------------------------
-Brute Force                    1               4.7066         
-Insertion Sort                 1               4.7037         
-Merge Sort                     1               1.9224         
-Quick Sort                     1               36.5662        
-Divide & Conquer               1               0.1917         
-Boyer-Moore Majority Vote      1               0.0254         
-Hash Map                       1               0.2017         
+Brute Force                    1               23.4772        
+Insertion Sort                 1               9.3606         
+Merge Sort                     1               1.3937         
+Quick Sort                     1               30.6233        
+Divide & Conquer               1               0.0898         
+Boyer-Moore Majority Vote      1               0.0157         
+Hash Map                       1               0.1300         
+Counting Based                 1               0.0205         
 ======================================================
 
 
